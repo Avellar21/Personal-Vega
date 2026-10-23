@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "Vega",
+    "slug": "personal-vega",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.avellar21.vega"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#F7F6F3",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false,
+      "package": "com.avellar21.vega"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "output": "single",
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font",
+      "expo-secure-store"
+    ],
+    "scheme": "vega",
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
